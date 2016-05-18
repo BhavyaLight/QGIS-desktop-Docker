@@ -19,3 +19,4 @@ RUN echo "developer:x:${uid}:${gid}:Developer,,,:/home/developer:/bin/bash" >> /
 
 USER developer
 CMD ["qgis", "desktop"]
+
